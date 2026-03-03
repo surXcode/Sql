@@ -74,3 +74,4 @@ GROUP BY job
 HAVING MIN(sal) > 1000
    AND MAX(sal) < 5000;
 
+
