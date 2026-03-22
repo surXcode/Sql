@@ -25,8 +25,9 @@ GROUP BY job
 HAVING SUM(sal) > 3800;
 
 4. Dept no and number of emp, only if there are 2 managers in that dept.
+       
 SELECT deptno,
-       COUNT(*) AS total_emp
+COUNT(*) AS total_emp
 FROM emp
 GROUP BY deptno
 HAVING SUM(CASE WHEN job = 'MANAGER' THEN 1 ELSE 0 END) = 2;
