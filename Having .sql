@@ -15,6 +15,7 @@ GROUP BY deptno
 HAVING COUNT(*) >= 4;
 
 3. For each job: number of emp earning sal > 1200, and total sal of that job must exceed 3800.
+       
 SELECT job,
 COUNT(*)      AS emp_more_1200,
 SUM(sal)      AS total_salary
