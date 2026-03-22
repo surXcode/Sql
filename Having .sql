@@ -1,4 +1,5 @@
 1. Dept no and number of employees in each dept having at least 2 clerks.
+       
 SELECT deptno,
 COUNT(*) AS total_emp
 FROM emp
@@ -6,6 +7,7 @@ GROUP BY deptno
 HAVING SUM(CASE WHEN job = 'CLERK' THEN 1 ELSE 0 END) >= 2;
 
 2. Dept no and total salary to pay all emp in each dept, if at least 4 emp in that dept.
+       
 SELECT deptno,
 SUM(sal) AS total_salary
 FROM emp
