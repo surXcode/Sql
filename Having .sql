@@ -11,6 +11,7 @@ HAVING SUM(CASE WHEN job = 'CLERK' THEN 1 ELSE 0 END) >= 2;
        
 
        
+       
 SELECT deptno,
 SUM(sal) AS total_salary
 FROM emp
