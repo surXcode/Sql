@@ -3,6 +3,7 @@ SMITH.
 
 
 
+
  
 1.SELECT DNAME
  FROM DEPT
