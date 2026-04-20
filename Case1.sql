@@ -4,7 +4,7 @@ ADAMS.
 
 
 
- 
+
 1. SELECT *
  FROM EMP
  WHERE ENAME=(SELECT SAL
