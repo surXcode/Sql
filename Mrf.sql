@@ -2,6 +2,7 @@
 THAN 2000 IN DEPTNO 10.
 
   
+
   
 1.SELECT COUNT(*)
 FROM EMP
