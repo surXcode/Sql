@@ -3,6 +3,7 @@ ADAMS.
  
 
 
+
  
 1. SELECT *
  FROM EMP
