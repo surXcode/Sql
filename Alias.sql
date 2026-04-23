@@ -5,7 +5,7 @@ ANNUAL SALARY
 
     
 
-    
+
 1.SELECT ENAME,SAL*12
     FROM EMP;
 
