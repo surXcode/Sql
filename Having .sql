@@ -1,6 +1,7 @@
 1. Dept no and number of employees in each dept having at least 2 clerks.
 
        
+
        
 SELECT deptno,
 COUNT(*) AS total_emp
