@@ -5,6 +5,7 @@ This repository contains a complete collection of SQL queries and solutions prov
 It includes classroom assignments, practice questions, tests, interview-focused SQL problems, and module-wise exercises.
 
 ---
+
 ## 📘 **Topics Covered**
 
 - 🔹 Basics of SQL  
