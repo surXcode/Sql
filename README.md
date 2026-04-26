@@ -6,6 +6,7 @@ It includes classroom assignments, practice questions, tests, interview-focused 
 
 ---
 
+
 ## 📘 **Topics Covered**
 
 - 🔹 Basics of SQL  
