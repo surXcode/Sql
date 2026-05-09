@@ -2,7 +2,6 @@
 
 
 
-
 SELECT deptno,
 COUNT(*) AS total_emp
 FROM emp
